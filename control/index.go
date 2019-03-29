@@ -158,6 +158,7 @@ type SourceIndex struct {
 	StandardsVersion string
 	Format           string
 	Files            []string `delim:"\n"`
+	FilesSha256      []string `control:"Checksums-Sha256:" delim:"\n"`
 	VcsBrowser       string   `control:"Vcs-Browser"`
 	VcsGit           string   `control:"Vcs-Git"`
 	VcsSvn           string   `control:"Vcs-Svn"`
