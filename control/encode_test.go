@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"pault.ag/go/debian/control"
-	"pault.ag/go/debian/dependency"
-	"pault.ag/go/debian/version"
+	"github.com/et7peho/go-debian/control"
+	"github.com/et7peho/go-debian/dependency"
+	"github.com/et7peho/go-debian/version"
 )
 
 type TestMarshalStruct struct {

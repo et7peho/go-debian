@@ -18,7 +18,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE. }}} */
 
-package deb // import "pault.ag/go/debian/deb"
+package deb // import "github.com/et7peho/go-debian/deb"
 
 import (
 	"archive/tar"
@@ -29,9 +29,9 @@ import (
 	"path"
 	"strings"
 
-	"pault.ag/go/debian/control"
-	"pault.ag/go/debian/dependency"
-	"pault.ag/go/debian/version"
+	"github.com/et7peho/go-debian/control"
+	"github.com/et7peho/go-debian/dependency"
+	"github.com/et7peho/go-debian/version"
 )
 
 // Control {{{

@@ -18,14 +18,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE. }}} */
 
-package control // import "pault.ag/go/debian/control"
+package control // import "github.com/et7peho/go-debian/control"
 
 import (
 	"bufio"
 	"strings"
 
-	"pault.ag/go/debian/dependency"
-	"pault.ag/go/debian/version"
+	"github.com/et7peho/go-debian/dependency"
+	"github.com/et7peho/go-debian/version"
 )
 
 // The BinaryIndex struct represents the exported APT Binary package index

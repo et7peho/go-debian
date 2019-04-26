@@ -25,7 +25,7 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"pault.ag/go/debian/dependency"
+	"github.com/et7peho/go-debian/dependency"
 )
 
 /*
